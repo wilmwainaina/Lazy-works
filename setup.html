@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SETUP</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url("/project-images/setup.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+        }
+        form{
+            text-align: center;
+            color: black;
+            font-size: x-large;
+        }
+    </style>
+    <form action="break.json">
+        <div>
+    <label for="title">who is using:</label>
+
+    <label for="individual">individual</label>
+    <input type="radio" id="individual"name="distiction" value="individual" required>
+
+    <label for="group">group</label>
+    <input type="radio" id="group" name="distiction" value="group" required><br>
+    
+
+</div><br>
+        <div>
+ <label for="">first name:</label>
+ <input type="" id="" name="" placeholder="rick" required>
+ </div><br>
+
+ <div>
+ <label for="">last name:</label>
+ <input type="" id="" name="" placeholder="morty" required>
+</div><br>
+
+
+<div>
+    <label for="time">work time:</label>
+    <select id="time" name="work-time">
+        <option value="">30 min</option>
+        <option value="">45min</option>
+        <option value="">1 hr</option>
+        <option value="">3 hrs</option>
+        <option value="">8 hrs</option>
+    </select>
+</div><br>
+<div>
+    <input type="reset">
+</div><br>
+<div>
+    <input type="submit">
+</div>
+
+
+    </form>
+    <scipt href="index.js"></scipt>
+</body>
+</html>
