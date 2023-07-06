@@ -99,9 +99,10 @@ Here is the continuation of the javascript file;
     }
   });
  ```
- ensure you setup a html file that works with the javascript like
+ ensure you setup a html file that works with the javascript like;
+
  ```
- !DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -120,11 +121,10 @@ Here is the continuation of the javascript file;
 </body>
 </html>
 
+ ``
 
- ```
 # side notes
 as of why the json file is within the js file is due to it not being detected when the code was running as multiple errors would show.
-this also caused for reduction of items within the json.
-
+this also caused for reduction of items within the json
 # License
 This code is licensed under the MIT License. Feel free to use and modify it for your purposes.
